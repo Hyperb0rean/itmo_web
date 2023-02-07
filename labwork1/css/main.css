@@ -1,0 +1,121 @@
+
+#name-text {
+    font-size: 30px;
+}
+
+#group-text {
+    font-size: 19px;
+}
+
+.text,.input-label,.x-error-message,.r-error-message{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: darkgoldenrod;
+    color: gold;
+    font-family: cursive;
+    text-align: center;
+    font-size: 18px;
+}
+body{
+    background-color:  #BE132D;
+    margin: 0;
+}
+
+#gif{
+    height: 249px;
+    width: 249px;
+    margin: auto;
+    display: block;
+
+}
+
+#credits{
+    margin: auto;
+    horiz-align: center;
+    display: block;
+    height: 249px;
+    width: 349px;
+}
+
+.content-div{
+    vertical-align: top;
+    horiz-align: center;
+    padding: 5px;
+
+
+}
+#result-table{
+    vertical-align: top;
+    border: solid gold;
+
+}
+#result-table th, #result-table td{
+    border: 2px solid gold;
+    display: table-cell;
+    padding: 3px;
+    font-size: 10px;
+
+}
+
+.input-label{
+    font-size: 14px;
+}
+form{
+    display: inline-block;
+    vertical-align:top;
+    margin: auto;
+    text-align: center;
+    horiz-align: center;
+}
+
+select {
+    background: #AA381E;
+    color: gold;
+    margin: 5px 5px 25px;
+}
+.checkboxes {
+    font-size: 18px;
+}
+.y-value {
+    text-align: center;
+}
+[placeholder="Enter X"] {
+    border: 1px solid gold;
+    background: #AA381E;
+    margin: 30px 5px 5px;
+    color: gold;
+    accent-color: #AA381E;
+}
+
+.r-value {
+    margin-top: auto;
+}
+
+input[type="checkbox"] {
+    accent-color: red;
+}
+
+
+input[type="submit"] {
+    background-color: #AA381E;
+    color: gold;
+    border:1px solid darkgoldenrod;
+
+}
+[type="submit"]:hover {
+    background-color: red;
+}
+
+::selection {
+    color: red;
+    background-color: gold;
+}
+#plot{
+    height: 249px;
+    width: 249px;
+    margin: auto;
+    horiz-align: center;
+}
+.r-error-message,.x-error-message{
+    margin: 5px;
+}
+

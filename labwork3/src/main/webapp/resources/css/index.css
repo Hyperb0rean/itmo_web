@@ -1,0 +1,49 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+.main-container__item {
+    text-align: center;
+}
+
+.datetime {
+    color: #AA381E;
+    line-height: 45px;
+}
+
+.datetime__time {
+    color: #AA381E;
+    font-size: 68px;
+}
+
+.index-menu__link {
+    display: inline-block;
+    height: 27px;
+    width: auto;
+    padding: 1px 6px;
+    text-decoration: none;
+    font-size: 13px;
+    color: gold;
+    background-color: #AA381E;
+}
+
+.index-menu__link:hover {
+    background-color: #AA381E;
+}
+
+.index-menu__link::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.start-image {
+    height: 30%;
+    margin: 3%;
+    horiz-align: center;
+}

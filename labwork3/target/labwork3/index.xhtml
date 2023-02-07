@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<ui:composition template="WEB-INF/templates/master.xhtml">
+
+   <ui:define name="head">
+      <h:outputStylesheet library="css" name="index.css"/>
+      <title>Labwork #3 - Starting page | 实验 #3 - 起始</title>
+   </ui:define>
+
+   <ui:define name="main">
+      <main class="main-container">
+         <h1 class="visually-hidden">Labwork #3 - Starting page | 实验 #3 - 起始</h1>
+
+         <section class="main-container__item main-container__item_start">
+            <h2 class="visually-hidden">Starting page | 起始</h2>
+
+            <p class="datetime">
+               <span class="datetime__date"> <!-- Date from JS --> </span>
+               <br/>
+               <span class="datetime__time"> <!-- Time from JS --> </span>
+            </p>
+
+            <!--suppress CheckTagEmptyBody -->
+            <h:graphicImage styleClass="start-image" value="resources/img/winnie.png" ></h:graphicImage>
+            <div class="index-menu">
+               <h:link styleClass="index-menu__link index-menu__link_to-main" outcome="goToMain">
+                  To main page | 到主页
+               </h:link>
+            </div>
+         </section>
+      </main>
+
+      <h:outputScript library="js" name="index.js"/>
+   </ui:define>
+
+</ui:composition>
+
+</html>

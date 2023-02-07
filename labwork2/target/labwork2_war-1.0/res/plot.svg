@@ -1,0 +1,8 @@
+<svg width="349" height="349" viewBox="0 0 349 349" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="349" height="349" fill="#BE132D"/>
+<line x1="175" x2="175" y2="349" stroke="black" stroke-width="2"/>
+<line y1="173" x2="349" y2="173" stroke="black" stroke-width="2"/>
+<rect x="174" y="54" width="120" height="120" fill="#FFD700"/>
+<path d="M174 54.5C133.833 54.1667 53.8 77.4 55 173H174V54.5Z" fill="#FFD700" stroke="#FFD700"/>
+<path d="M174 295L113 173.5H174V295Z" fill="#FFD700" stroke="#FFD700"/>
+</svg>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Credit Game | Lab 1</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="js/onloadscript.js"></script>
+    <script type="text/javascript" src="js/validation.js"></script>
+</head>
+<body>
+<table >
+    <tr>
+            <div id="header">
+                <p id="name-text" class="text">Sosnovtsev Gregoriy Alexeevich | 索斯诺夫采夫·格雷戈里·阿列克谢耶维奇</p>
+                <p id="group-text" class="text">P32102 var 1020 | P32102 变量 1020</p>
+            </div>
+    </tr>
+    <tr>
+        <td class="content-div" width="35%" >
+             <img id="gif" src="res/icegif-1009.gif" alt="禁止污垢回鹘"> <br><br>
+            <img id="credits" src="res/pluscredits.jpg">
+        </td>
+        <td width="35%"  >
+            <img id="plot" src="res/plot.png">
+            <form class="form" id="form" onsubmit="start(); return false;" method="get">
+
+                <div class="y-value">
+                    <label for="y-value" class="input-label">Value of Y: | Y 值：</label><br><br>
+                    <select id="y-value" size="1" name="y-value">
+                        <option selected value="-3">-3</option>
+                        <option value="-2">-2</option>
+                        <option value="-1">-1</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div class="x-value">
+                    <label for="x-value" class="input-label">Value of X: (up to 10 signs)| X 的值：</label><br><br>
+                    <input type="text" id="x-value" name="x-value" placeholder="Enter X | 输入 X" >
+                    <div class="x-error-message" ></div>
+                </div>
+
+                <div class="r-value">
+                    <label  class="input-label">Value of R: | R值：</label><br><br>
+                    <div class="checkboxes">
+                        <input type="checkbox" id="r-1-option" name="r-value" value="1">
+                        <label  class="text" for="r-1-option">1 &nbsp;</label>
+                        <input type="checkbox" id="r-2-option" name="r-value" value="2">
+                        <label  class="text" for="r-2-option">2 &nbsp;</label>
+                        <input type="checkbox" id="r-3-option" name="r-value" value="3">
+                        <label  class="text" for="r-3-option">3 &nbsp;</label>
+                        <input type="checkbox" id="r-4-option" name="r-value" value="4">
+                        <label  class="text" for="r-4-option">4 &nbsp;</label>
+                        <input type="checkbox" id="r-5-option" name="r-value" value="5">
+                        <label  class="text" for="r-5-option">5 &nbsp;</label>
+                    </div>
+                    <div class="r-error-message">
+                    </div>
+                </div>
+
+                <input type="submit" value="Submit | 提交">
+
+            </form>
+
+        </td>
+        <td class="content-div" width="30%" >
+                <table id="result-table">
+                    <tr>
+                        <th class="text">X</th>
+                        <th class="text">Y</th>
+                        <th class="text">R</th>
+                        <th class="text">Current Time | 当前时间 </th>
+                        <th class="text">Execution Time | 执行时间处理时间</th>
+                        <th class="text">Result | 结果</th>
+                    </tr>
+                </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
